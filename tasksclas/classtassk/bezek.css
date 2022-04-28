@@ -1,0 +1,25 @@
+.line{
+    width: 100%;
+}
+.line1{
+    width: 100%;
+    background-color: rgb(166, 211, 253);
+    border-bottom: 10%;
+    border-bottom: 3px solid green;
+}
+.line2{
+    width: 100%;
+}
+.border{
+    width: 35%;
+    border-style: solid;
+    border-radius: 0px 10px 0px 10px;
+    
+    margin-left: 350px;
+    /* width: 500px; */
+}
+.left{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 100px;
+}

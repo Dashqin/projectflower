@@ -1,0 +1,19 @@
+.image-style{
+    width: 400px;
+    height: 250px;
+    border-style: solid ;
+    border-color: rgb(151, 228, 36);
+    border-width: 17px;
+}
+.border2{
+    border-style: solid;
+    border-color: yellow;
+    border-width: 17px;
+    width: 432px;
+}
+.border3{
+    border-style: solid;
+    border-color: gray;
+    border-width: 17px;
+    width: 466px;
+}

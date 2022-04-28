@@ -1,0 +1,27 @@
+.code{
+    width: 400px;
+
+    height: 250px;
+     
+}
+.border{
+    border-style: ridge;
+    width: 400px;
+    padding-bottom: 50px;
+    box-shadow: 100%;
+    margin-left: 35%;
+}
+#id{
+    margin-left: 10px;
+}
+#h3{
+    margin-left: 20px;
+}
+.p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.p1{
+    margin-top: 15px;
+    margin-left: 20px;
+}
