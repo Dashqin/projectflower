@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+.nav{
+    /* background-color: antiquewhite; */
+    height: 80px;
+    color: rgb(241, 205, 158);
+}
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+    padding-top: 30px;
+}
+.nav h1{
+    float: left;
+    padding-top: 20px;
+}
+#li1{
+    margin-left: 60%;
+}
+.head{
+    /* background-image: url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg); */
+    width: 100%;
+    height: 938px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+}
+.head p{
+    width: 45%;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20%;
+    margin-left: 26%;
+}
+.head #p2{
+    width: 75%;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -250px;
+    margin-left: 10%;
+}
+.head button{
+    width: 12%;
+    height: 70px;
+    margin-top: 30px;
+    background-color: rgb(244, 98, 58);
+    color: white;
+    border-radius: 50px;
+    border-style: none;
+    border-style: 1px solid rgb(244, 98, 58);
+}
+.line1{
+    width: 100%;
+    height: 610px;
+    background-color: rgb(244, 98, 58);
+}
+.line1 p{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+    color: white;
+}
+.line1 #p2{
+    font-size: 23px;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+.line1 button{
+    width: 12%;
+    height: 70px;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    border-style: 1px solid rgb(255, 255, 255);
+    margin-left: 45%;
+    border-style: none;
+}
+.line2{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+}
+.line2 .text1 p{
+    text-align: center;
+    font-size: 40px;
+    /* padding-top: 140px; */
+}
+.line2 .cards div{
+    /* float: left; */
+    display: inline-block;
+    margin-left: 14%;
+}
+.line2 .bi{
+    color: rgb(244, 98, 58);
+}
+div{
+    padding-left: 3.2%;
+    padding-top: 4%;
+}
+.subline div{
+    text-align: center;
+    width: 2%;
+}
+.sub{
+    width: 24%;
+    text-align: center;
+    display: inline-block;
+    margin-top: -100px;
+}
+.subline1{
+    padding-left: 13%;
+}
