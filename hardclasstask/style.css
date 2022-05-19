@@ -14,17 +14,18 @@
     background-repeat: no-repeat;
 }
 .header h1{
-    padding-top: 340px;
-    font-size: 80px;
+    padding-top: 210px;
+    font-size: 75px;
     font-family: montserrat;
     margin-bottom: 10px;
 }
 .header b{
-    font-size: 30px;
+    font-size: 23px;
+    font-family: montserrat;
 }
 .header button{
-    margin-top: 60px;
-    padding: 25px 40px 25px 40px;
+    margin-top: 50px;
+    padding: 25px 45px 25px 45px;
     color: white;
     background-color: rgb(46, 124, 214);
     border-style: none;
@@ -54,26 +55,181 @@
     border-radius: 4px;
 }
 .line3{
-    text-align: center;
     width: 100%;
     height: 480px;
-    background-color: rgb(59, 154, 199);
+    background-color: rgb(37, 121, 160);
     font-family: montserrat;
 }
-.line3 h4{
+.text-center{
+    text-align: center;
+}
+.text-center h4{
     padding-top: 80px;
     color: rgb(247, 177, 48);
 }
-.line3 b{
+.text-center b{
     color: white;
     font-size: 35px;
 }
-.bi-phone{
+.icon1{
     border-style: none;
     border-radius: 50%;
-    padding: 25px;
-    width: 100px;
-    height: 100px;
+    padding: 38px;
+    width: 120px;
+    height: 120px;
     background-color: white;
-    /* color: rgb(75, 213, 255); */
+    margin-top: 60px;
+    display: inline-block;
+    box-shadow: 0px 0px 2px 0px;
+    margin-left: 210px;
 }
+.area1 h4{
+    display: block;
+}
+.icon2{
+    border-style: none;
+    border-radius: 50%;
+    padding: 38px;
+    width: 120px;
+    height: 120px;
+    box-shadow: 0px 0px 2px 0px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 150px;
+}
+.icon3{
+    border-style: none;
+    border-radius: 50%;
+    padding: 38px;
+    width: 120px;
+    height: 120px;
+    box-shadow: 0px 0px 2px 0px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 150px;
+}
+.icon4{
+    border-style: none;
+    border-radius: 50%;
+    padding: 38px;
+    width: 120px;
+    height: 120px;
+    box-shadow: 0px 0px 2px 0px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 150px;
+}
+.bi{
+    color: rgb(41, 130, 172);
+    width: 40px;
+    height: 40px;
+}
+.line4{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.line4 button{
+    margin-top: 50px;
+    margin-left: 550px;
+    text-align: center;
+    padding: 25px 45px 25px 45px;
+    color: white;
+    background-color: rgb(46, 124, 214);
+    border-style: none;
+    border-radius: 4px;
+}
+.line4 p{
+    text-align: center;
+    font-size: 60px;
+    padding-top: 180px;
+}
+.line5{
+    background-color: white;
+    width: 100%;
+    height: 1000px;
+    transform: scale(0.75);
+    padding-left: 250px;
+}
+.line5 img{
+    width: 500px;
+    height: 350px;
+}
+.text-center2 h4{
+    text-align: center;
+    color: rgb(247, 177, 48);
+}
+.text-center2 p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+}
+.padding{
+    margin-top: 100px;
+}
+/* .padding:hover{
+    transform: scale(0.90);
+    box-shadow:0px 0px 35px 0px #1d1d1df2;
+} */
+.l1{
+    float: left;
+}
+.l1:hover{
+    transform: scale(0.90);
+}
+
+.l2:hover{
+    transform: scale(0.90);
+}
+.l3:hover{
+    transform: scale(0.90);
+}
+.l4:hover{
+    transform: scale(0.90);
+}
+.l3{
+    float: left;
+}
+.line6{
+    background-color: rgb(37, 121, 160);
+    width: 100%;
+    height: 350px;
+    text-align: center;
+}
+.line6 p{
+    color: white;
+    padding-top: 100px;
+    font-size: 40px;
+}
+#button1{
+    padding: 30px 40px 30px 40px;
+    border-style: none;
+    border-radius: 5px;
+}
+#button2{
+    padding: 30px 40px 30px 40px;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+iframe{
+    width: 100%;
+    height: 500px;
+}
+.line8{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding-top: 70px;
+    
+}
+.line8 p{
+    padding-top: 40px;
+}
+

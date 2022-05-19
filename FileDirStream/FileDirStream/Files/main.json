@@ -1,0 +1,38 @@
+[
+  {
+    "comments": [
+      {
+        "Text": "SaLaM XaNiM!",
+        "Likes": 12,
+        "Date": "2022-04-08T09:45:21.4555789+04:00"
+      },
+      {
+        "Text": "Profildeki ozunuzsuz?",
+        "Likes": 3,
+        "Date": "2022-04-08T09:45:21.457509+04:00"
+      }
+    ],
+    "Name": "Mamed",
+    "Surname": "Aliyev",
+    "Age": 10,
+    "Email": "mamed@code.edu.az"
+  },
+  {
+    "comments": [
+      {
+        "Text": "Direct atmayin",
+        "Likes": 0,
+        "Date": "2022-04-08T09:45:21.4575129+04:00"
+      },
+      {
+        "Text": "Ad gunun mubarak",
+        "Likes": 4,
+        "Date": "2022-04-08T09:45:21.4575131+04:00"
+      }
+    ],
+    "Name": "Isabala",
+    "Surname": "Qeniyev",
+    "Age": 21,
+    "Email": "Isabala@code.edu.az"
+  }
+]

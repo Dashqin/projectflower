@@ -1,0 +1,21 @@
+.container{
+    .text h1{
+        width: 40%;
+        text-align: center;
+    }
+    .col{
+        background-color: rgb(216, 216, 216);
+        width:10%;
+        margin-left: 1%;
+        height: 500px;
+        border-radius: 20px;
+        text-align: center;
+        h4{
+            padding-top: 12%;
+            padding-bottom: 8%;
+        }
+        p{
+            padding-top: 15%;
+        }
+    }
+}

@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round:regular);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    color: aliceblue;
+}
+nav li{
+    margin-right: 20%;
+}
+.collapse{
+    justify-content: end;
+}
+.head{
+    margin-top: -30px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 1000px;
+    text-align: center;
+}
+.head h1{
+    font-size: 130px;
+    /* background-color: linear-gradient(to bottom, rgba(56, 56, 56, 0.3) 0%, rgba(107, 107, 107, 0.7) 75%, rgb(255, 255, 255) 100%); */
+    padding-top: 400px;
+    color: rgb(209, 209, 209);
+    font-family: varela round;
+}
+.head p{
+    font-size: 20px;
+    color: rgb(212, 212, 212);
+}
+.line1{
+    width: 100%;
+    height: 900px;
+    display: flex;
+}
+.container img{
+    width: 700px;
+    height: 500px;
+}
+.text{
+    vertical-align:middle;
+    width: 25%;
+    text-align: center;
+}
