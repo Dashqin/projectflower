@@ -5,13 +5,51 @@
     align-items: center;
     .nav-bar{
         h1{
-            font-family: montserrat;
+            font-family: montserrat,sans-serif;
             letter-spacing: 5px;
             font-size: 34px;
             font-weight: 400;
             span{
                 color: rgb(255, 80, 80);
             }
+        }
+    }
+    ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: end;
+        margin-left: 35%;
+        .drop-down{
+            position: relative;
+            margin-left: 10%;
+            .drop-down-content{
+                position: absolute;
+                // z-index: 1;
+                padding: 85px 50px 15px 10px;
+                margin-left: -37px;
+                padding-left: 70%;
+                min-width: 232px;
+                display: none;
+                background-color: white;
+                transition: height 5s ease;
+                a {
+                    color: rgba(83, 83, 83, 0.8);
+                    text-decoration: none;
+                    display: block;
+                    margin-bottom: 7%;
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                  }
+            }
+            li{
+                font-size: 12px;
+                letter-spacing: 2px;
+            }
+        }
+        .drop-down:hover .drop-down-content{
+            display: block;
+            transition: height 5s;
+            transition-delay: 1s;
         }
     }
 }
